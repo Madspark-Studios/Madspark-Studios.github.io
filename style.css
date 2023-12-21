@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    align-items: center;
+    border: 3px solid teal;
+}
+.Header img{
+    width: 64px;
+    height: 64px;
+}
+.Header h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Header h2{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
