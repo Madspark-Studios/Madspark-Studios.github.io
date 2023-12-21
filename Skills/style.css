@@ -79,8 +79,8 @@ main{
 .skill-containers{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 2.55rem;
-    margin: 0.5rem 2.5rem;
+    gap: 0.25rem;
+    margin: 0.5rem 0rem;
 }
 .skill-container{
     display: flex;
@@ -88,6 +88,7 @@ main{
     background-color: rgb(32, 36, 36);
 }
 .skill-container h2{
+    font-size: 1rem;
     text-align: center;
     margin: 0.1rem 0;
     flex-wrap: wrap;
@@ -133,8 +134,15 @@ main{
         margin-right: 2rem;
         gap: 2rem;
     }
+    .skill-containers{
+        gap: 2.5rem;
+        margin: 0.5rem 2.5rem;
+    }
     .skill-container{
         flex-wrap: none;
+    }
+    .skill-container h2{
+        font-size: 1.6rem;
     }
     .skill{
         height: 2.5rem;
