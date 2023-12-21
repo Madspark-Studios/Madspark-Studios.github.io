@@ -107,6 +107,7 @@ main .hero-container p{
 .hero-container .hero-images img{
     width: 10rem;
     margin: 1rem 0;
+    border-radius: 2rem;
 }
 main h2{
     font-size: 2.6rem;
@@ -128,7 +129,7 @@ main h2{
 }
 .projects-container .projects-item img{
     width: 70%;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 .projects-container .projects-item h3{
     font-size: 2rem;
@@ -142,6 +143,7 @@ main h2{
 .projects-container .projects-item p{
     font-size: 1.2rem;
     font-weight: 300;
+    text-indent: 3rem;
 }
 .projects-container .projects-item a{
     color: rgb(255, 255, 255);
