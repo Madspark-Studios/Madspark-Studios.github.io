@@ -119,7 +119,7 @@ main{
     .link-items a{
         font-size: 1.8rem;
     }
-    .header .name .title{
+    header .name .title{
         font-size: 2.8rem;
     }
     .page-items a{
