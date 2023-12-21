@@ -27,7 +27,7 @@ header{
 }
 .link-items a{
     color: rgb(255, 255, 255);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 .link-items a:hover{
     color: rgb(120, 120, 120);
@@ -44,7 +44,7 @@ header .name img{
 }
 header .name .title{
     color: rgb(255, 255, 255);
-    font-size: 2.8rem;
+    font-size: 1rem;
     font-weight: 700;
     font-style: italic;
     padding: 0 0.5rem;
@@ -62,7 +62,7 @@ header .name .title{
 .page-items a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 400;
     margin: 0.6rem;
 }
@@ -115,6 +115,15 @@ main{
 }
 
 @media (min-width: 75em) {
+    .link-items a{
+        font-size: 1.8rem;
+    }
+    .header .name .title{
+        font-size: 2.8rem;
+    }
+    .page-items a{
+        font-size: 1rem;
+    }
     .link-items{
         margin-left: 2rem;
         gap: 2rem;
